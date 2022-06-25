@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: snake
+    password: snake
+    url: jdbc:mysql://localhost:3306/snake_manager
+    
+logging:
+  level:
+    root: warn
+    '[com.pearson]': debug
